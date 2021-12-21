@@ -1,0 +1,15 @@
+repositório pacote;
+
+importar java.util.Set;
+
+ interface pública IRepository<E>{
+    público boolean cadastrar(E entidade);
+
+    Conjunto público< E> listar();
+
+    público E buscar(int id);
+
+    público boolean editar(E entidade);
+
+    removedor booleano público (int id);
+}
